@@ -7,7 +7,16 @@ class DashboardSection1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Row(),
+        const Row(
+          children: [
+            Column(
+              children: [
+                Text("Crack your goal with\nIndia's top educators"),
+                Text("Over 10 crore learners trust us for their prepration"),
+              ],
+            ),
+          ],
+        ),
         Image.asset(name),
       ],
     );
